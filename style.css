@@ -112,3 +112,12 @@ h3.sub{margin:30px 0 12px;font-size:1rem;color:var(--accent)}
 
 .logo{display:inline-flex;align-items:center;gap:10px}
 .logo img{border-radius:8px}
+
+/* research labs */
+.labs{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+.lab{display:flex;align-items:center;gap:14px;padding:12px 18px 12px 12px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);transition:.25s;flex:1 1 230px}
+.lab:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 14px 30px rgba(0,0,0,.35)}
+.lab-logo{flex:none;width:56px;height:56px;border-radius:14px;background:#fff;display:flex;align-items:center;justify-content:center;padding:6px}
+.lab-logo img{max-width:100%;max-height:100%;object-fit:contain}
+.lab b{display:block;font-size:1rem;color:var(--text)}
+.lab small{display:block;font-size:.8rem;color:var(--muted);line-height:1.35}
